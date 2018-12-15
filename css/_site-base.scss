@@ -118,9 +118,9 @@ a {
             line-height: 240px;
             span{
                 position: relative;
-                &.name-felicio{
+                &.name-ikaro{
                     &:after{
-                         content: 'Felício';
+                         content: 'Ikaro';
                          position: absolute;
                          font-size: 32px;
                          font-weight: lighter;
@@ -128,9 +128,9 @@ a {
                          right: -150px;
                      }
                 }
-                &.name-santos{
+                &.name-sales{
                     &:before{
-                        content: 'Santos';
+                        content: 'Sales';
                         position: absolute;
                         font-size: 32px;
                         font-weight: lighter;
@@ -369,11 +369,11 @@ a {
             .title-code {
                 font-size: 95px;
                 line-height: 130px;
-                span.name-felicio:after {
+                span.name-ikaro:after {
                     font-size: 20px;
                     right: -60%;
                 }
-                span.name-santos:before{
+                span.name-sales:before{
                     font-size: 20px;
                     left: -60%;
                 }
